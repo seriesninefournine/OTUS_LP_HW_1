@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     v.name = "OTUS-LP-01-test"
     v.gui = false
   end
-  config.vm.box = "series949/centos-5-4-137"
+  #config.vm.box = "series949/centos-5-4-137"
   config.vm.box_check_update = false
   config.vm.define "node_01" do |node_01|
     node_01.vm.hostname = "OTUS-LP-01"
